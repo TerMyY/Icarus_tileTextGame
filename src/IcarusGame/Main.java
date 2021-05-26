@@ -87,6 +87,11 @@ public class Main {
                     World.buildWorld();
                     input = sc.nextLine();
                     break;
+                case "exit":
+                case "quit":
+                case "end":
+                    gameIsOn = false;
+                    break;
                 default:
                     World.buildWorld();
                     input = sc.nextLine();
